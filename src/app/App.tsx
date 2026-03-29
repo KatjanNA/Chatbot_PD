@@ -174,7 +174,7 @@ export default function App() {
         <div className="bg-gray-100 border-t border-gray-200 p-5 text-sm text-gray-700 h-[72px] flex items-center justify-center">
           <p className="m-0 text-center">
             {showFooterText
-              ? "Der Assistant ist eine KI. Überprüfe wichtige Informationen."
+              ? ""
               : ""}
           </p>
         </div>
