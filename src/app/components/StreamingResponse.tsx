@@ -9,11 +9,11 @@ interface StreamingResponseProps {
 
 const fullText = {
   intro:
-    " Basierend auf der Analyse der vorliegenden Daten für ETF A und ETF B möchte ich Ihnen eine Einschätzung zur Anlage Ihres Kapitals von 3.000€ geben. Hierfür stelle ich Ihnen eine strukturierte und ausgewogene Vorgehensweise vor.",
-  etfA: " bietet Ihnen gute Chancen auf überdurchschnittliche Erträge im globalen Kontext durch die attraktive Rendite von 5,2%. Durch die Einstufung in die mittlere Risikoklasse müssen Sie jedoch mit Schwankungen rechnen.",
-  etfB: " dient für Sie als stabilisierende Komponente durch die niedrige Risikoklasse sowie der geringen Kostenquote von 0,2%. Die Rendite von 3,1% hingegen fällt moderater aus, und kann Ihnen bei der Risikoreduzierung behilflich sein.",
+    " Basierend auf der Analyse der vorliegenden Daten für ETF A und ETF B möchte ich Ihnen eine Einschätzung zur Anlage Ihres Kapitals von 3.000 € geben. Hierfür stelle ich Ihnen eine strukturierte und ausgewogene Vorgehensweise vor.",
+  etfA: " bietet Ihnen gute Chancen auf überdurchschnittliche Erträge im globalen Kontext durch die attraktive Rendite von 5,2 %. Durch die Einstufung in die mittlere Risikoklasse müssen Sie jedoch mit Schwankungen rechnen.",
+  etfB: " dient für Sie als stabilisierende Komponente durch die niedrige Risikoklasse sowie der geringen Kostenquote von 0,2 %. Die Rendite von 3,1 % hingegen fällt moderater aus, und kann Ihnen bei der Risikoreduzierung behilflich sein.",
   recommendation:
-    " Ich empfehle Ihnen für Ihre Anlage von 3000€ eine gezielte Aufteilung im Verhältnis von 70% zu 30%. Für Ihr Portfolio bedeutet dies konkret, dass Sie 2100€ in den ETF A und 900€ in den ETF B investieren sollten.",
+    " Ich empfehle Ihnen für Ihre Anlage von 3.000€ eine gezielte Aufteilung im Verhältnis von 70 % zu 30 %. Für Ihr Portfolio bedeutet dies konkret, dass Sie 2.100€ in den ETF A und 900€ in den ETF B investieren sollten.",
   conclusion:
     " Diese Gewichtung ermöglicht Ihnen ein ausgewogenes Verhältnis zwischen Renditechancen und Risikomanagement. Sie nutzen das Renditepotenzial des globalen Marktes, während gleichzeitig durch den defensiveren Anteil von ETF B Risiken reduziert werden.",
   
@@ -160,7 +160,7 @@ export function StreamingResponse({
                             setDisplayedDisclaimer("");
                             const disclaimerWords =
                               fullText.disclaimer.trim().split(" ");
-                            let disclaimerIndex = 0;
+                            let disclaimerIndex = -1;
 
                             const streamDisclaimer = () => {
                               if (
