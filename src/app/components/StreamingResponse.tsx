@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import iconSvg from "../../imports/ICON03.svg";
+import iconSvg from "../../imports/ICON01.svg";
 import { ETFComparison } from "./ETFComparison";
 
 interface StreamingResponseProps {
@@ -16,10 +16,10 @@ const fullText = {
     " Zur Umsetzung einer ausgewogenen Anlagestrategie schlage ich Ihnen vor, Ihr Kapital von 3.000 € in 70 % ETF A und 30 % ETF B aufzuteilen. Dies entspricht einer Aufteilung von 2.100 € auf ETF A und 900 € auf ETF B.",
   conclusion:
     " Die vorgeschlagene 70/30-Teilung kombiniert das Wachstumspotenzial der globalen Märkte aus ETF A mit der sicherheitsorientierten Stabilität von ETF B durch das Investment in nachhaltige europäische Unternehmen. Mit dieser Gewichtung wird das Gesamtrisiko Ihres Portfolios effizient verteilt, während gleichzeitig eine solide Renditeerwartung gewahrt bleibt.",
-  end: " Dies wäre eine strukturierte Grundlage für langfristiges Kapitalwachstum.",
+  end: " Insgesamt wäre dies für Sie eine ausgewogene Kombination aus Wachstum und Stabilität bei gleichzeitig moderaten Kosten.",
 
   disclaimer:
-    " Diese Inhalte wurden von einer Künstlichen Intelligenz erstellt. Sie dienen zu Informationszwecken, können Fehler enthalten und ersetzen keine professionelle Beratung. Bitte prüfen Sie wichtige Angaben eigenständig, bevor Sie auf deren Basis handeln.",
+    " Diese Nachricht ist KI-generiert und wurde auf Basis von statistischen Wahrscheinlichkeiten erzeugt, und kann daher Fehler enthalten. Sie dient ausschließlich zu Informationszwecken und ersetzt keine professionelle Beratung. Alle wichtigen Angaben sollten unabhängig überprüft werden, bevor auf deren Basis gehandelt wird.",
 };
 
 export function StreamingResponse({
